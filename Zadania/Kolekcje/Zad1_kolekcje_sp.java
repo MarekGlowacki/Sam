@@ -1,3 +1,4 @@
+package Kolekcje;
 
 import java.util.*;
 
