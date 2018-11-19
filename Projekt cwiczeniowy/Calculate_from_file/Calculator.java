@@ -13,7 +13,7 @@ public class Calculator {
 
     }
 
-    public static double calculate(String fileName){
+    public static int calculate(String fileName){
         File file = new File(fileName);
         int apply = 0;
         try {
