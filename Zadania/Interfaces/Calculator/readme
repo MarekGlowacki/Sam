@@ -1,0 +1,39 @@
+Napisz dwie klasy implementujące interfejs Computation. Niech jedna z implementacji przeprowadza operację dodawania, druga mnożenia.
+
+
+
+public interface Computation {
+    double compute(double argument1, double argument2);
+}
+
+
+Użyj obu implementacji do uzupełnienia programu poniżej:
+
+public class Main {
+    public static void main(String[] args) {
+        Main main = new Main();
+        Computation computation;
+
+        if (main.shouldMultiply()) {
+            computation = new Multiplication(); // zaimplementuj brakującą klasę
+        }
+        else {
+            computation = new Addition(); // zaimplementuj brakującą klasę
+        }
+
+        double argument1 = main.getArgument();
+        double argument2 = main.getArgument();
+
+        double result = computation.compute(argument1, argument2);
+        System.out.println("Wynik: " + result);
+    }
+
+    private boolean shouldMultiply() {
+        return false; // tutaj zapytaj użytkownika co chce zrobić (mnożenie czy dodawanie)
+    }
+
+    private double getArgument() {
+        return 0; // tutaj pobierz liczbę od użytkownika
+    }
+}
+Program po uruchomieniu powinien zapytać użytkownika jaką operację chce wykonać, następnie pobrać dwa argumenty niezbędne do wykonania tej operacji. Ostatnią linijką powinien być wynik dodawania/mnożenia wyświetlony użytkownikowi.
