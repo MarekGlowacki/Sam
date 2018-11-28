@@ -34,11 +34,21 @@ public class Basket {
 
     }
 
+    public static Map<String, List<Double>> getOrderedItems(){
+        return orderedItems;
+    }
+
+//    public static void removeMap(){
+//        for (String key : orderedItems.keySet()){
+//            orderedItems.remove(key);
+//        }
+//    }
+
     public static void addItem(String itemName, double amount, double price) {
         List<Double> list = new LinkedList<>();
 
         if (amount <= 0){
-            System.out.println("Podana ilość, jest niewłaściwa.");
+            throw new IllegalArgumentException(String.format("Illegal quantity %d!", amount));
         } else if (orderedItems.containsKey(itemName)){
 
             list = orderedItems.get(itemName);

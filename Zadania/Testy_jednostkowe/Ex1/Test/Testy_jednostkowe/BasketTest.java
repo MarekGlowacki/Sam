@@ -1,124 +1,70 @@
 package Testy_jednostkowe;
 
-import org.junit.Assert;
+
+import static org.junit.Assert.assertEquals;
+
+
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 
-class BasketTest {
+public class BasketTest {
 
-//    @Test
-//    public void test1(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.addItem("Book", 3));
+    private Basket basket;
+
+    @Before
+    public void setUp() {
+        basket = new Basket();
+    }
+
+    @Test
+    public void shouldAllowToAddItemToBasket() {
+        basket.addItem("Book", 3, 4.58);
+
+
+        Map<String, List<Double>> expected = createOrder("Book", 3, 4.58);
+        assertEquals(expected, basket.getOrderedItems());
+    }
+
+//    @After
+//    public void clearMap(){
+//        basket.removeMap();
 //    }
-//
-//    @Test
-//    public void test11(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.addItem("Book", 0));
-//    }
-//
-//    @Test
-//    public void test2(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.addItem("Book", -2));
-//    }
-//
-//    @Test
-//    public void test3(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.addItem("Bike", 90));
-//    }
-//
-//    @Test
-//    public void test4() {
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.addItem("Bike", 0));
-//    }
-//
-//    @Test
-//    public void test5(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.addItem("Bike", -1));
-//    }
-//
-//    @Test
-//    public void test6(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.addItem("Mobile", 4));
-//    }
-//
-//    @Test
-//    public void test7(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.addItem("Mobile", 0));
-//    }
-//
-//    @Test
-//    public void test8(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.addItem("Mobile", -4));
-//    }
-//
-//    @Test
-//    public void test9(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.deleteItem("Book", 1));
-//    }
-//
-//    @Test
-//    public void test10(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.deleteItem("Book", 0));
-//    }
-//
-//    @Test
-//    public void test12(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.deleteItem("Book", -2));
-//    }
-//
-//    @Test
-//    public void test13(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.deleteItem("Bike", 1));
-//    }
-//
-//    @Test
-//    public void test14(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.deleteItem("Bike", 0));
-//    }
-//
-//    @Test
-//    public void test15(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.deleteItem("Bike", -1));
-//    }
-//
-//    @Test
-//    public void test16(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.deleteItem("Mobile", 1));
-//    }
-//
-//    @Test
-//    public void test17(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.deleteItem("Mobile", 0));
-//    }
-//
-//    @Test
-//    public void test18(){
-//        Basket basket = new Basket();
-//        Assert.assertFalse(basket.deleteItem("Mobile", -1));
-//    }
-//
-//    @Test
-//    public void test19(){
-//        Basket basket = new Basket();
-//        Assert.assertTrue(basket.summary());
-//    }
+
+    @Test
+    public void shouldAllowToAddTwiceSameItem(){
+        basket.addItem("Book", 4, 2.39);
+        basket.addItem("Book", 2, 2.93);
+
+        Map<String, List<Double>> expected = createOrder("Book", 6, 2.93);
+
+        assertEquals(expected, basket.getOrderedItems());
+
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void shouldNotAllowToAddEmptyItem(){
+        basket.addItem("Book", 0, 4.58);
+    }
+
+
+    private static Map<String, List<Double>> createOrder(String name, double quantity, double price) {
+        Map<String, List<Double>> result = new HashMap<>();
+
+        List<Double> list = new LinkedList<>();
+
+        list.add(quantity);
+        list.add(price);
+
+        result.put(name, list);
+
+        return result;
+    }
 
 }
