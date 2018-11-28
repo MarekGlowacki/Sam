@@ -4,9 +4,10 @@ import java.util.*;
 
 public class Basket {
 
-    private static Map<String, List<Double>> orderedItems = new HashMap<>();
+    private Map<String, List<Double>> orderedItems = new HashMap<>();
+    protected static final String ITEM_ORDER_FORMAT = "%s (%.2fx %.2f = %.2f)";
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         System.out.println(orderedItems);
         addItem("Book", 3, 4.58);
         System.out.println(orderedItems);
@@ -34,20 +35,36 @@ public class Basket {
 
     }
 
-    public static Map<String, List<Double>> getOrderedItems(){
+    public Map<String, List<Double>> getOrderedItems(){
         return orderedItems;
     }
 
-//    public static void removeMap(){
-//        for (String key : orderedItems.keySet()){
-//            orderedItems.remove(key);
-//        }
-//    }
+    @Override
+    public String toString(){
+        StringBuilder result = new StringBuilder();
 
-    public static void addItem(String itemName, double amount, double price) {
+        for (Map.Entry<String, List<Double>> itemOrder : orderedItems.entrySet()){
+            String itemName = itemOrder.getKey();
+            List<Double> itemANP = new LinkedList<>();
+            itemANP = itemOrder.getValue();
+            double itemAmount = itemANP.get(0);
+            double itemPrice = itemANP.get(1);
+
+            String itemString = String.format(ITEM_ORDER_FORMAT, itemName, itemAmount, itemPrice, itemAmount * itemPrice);
+
+            result.append(itemString);
+            result.append(System.lineSeparator());
+        }
+
+        result.append(String.format("Summary order is: %.2f zł.", summaryBasket()));
+        System.out.println(result.toString());
+        return result.toString();
+    }
+
+    public void addItem(String itemName, double amount, double price) {
         List<Double> list = new LinkedList<>();
 
-        if (amount <= 0){
+        if (amount <= 0 || price < 0){
             throw new IllegalArgumentException(String.format("Illegal quantity %d!", amount));
         } else if (orderedItems.containsKey(itemName)){
 
@@ -69,35 +86,38 @@ public class Basket {
 
     }
 
-    public static void deleteItem(String itemName, double amount) {
+    public void deleteItem(String itemName, double amount) {
         List<Double> list = new LinkedList<>();
 
         if (orderedItems.containsKey(itemName)) {
             if (amount > 0) {
                 list = orderedItems.get(itemName);
                 orderedItems.remove(itemName);
-                double newAmount = list.get(0);
-                if (newAmount >= amount) {
-                    newAmount -= amount;
+                double oldAmount = list.get(0);
+                if (oldAmount >= amount) {
+                    oldAmount -= amount;
                     System.out.format("Usunieto %.0fx %s.%n", amount, itemName);
                 } else {
-                    System.out.format("Podana ilość wykracza poza liczbę dostępnych sztuk, więc usunieto %.0fx %s.%n", newAmount, itemName);
+                    System.out.format("Podana ilość wykracza poza liczbę dostępnych sztuk, więc usunieto %.0fx %s.%n", oldAmount, itemName);
+                    oldAmount = 0;
                 }
-                list.remove(0);
 
-                list.add(0, newAmount);
-                orderedItems.put(itemName, list);
-                System.out.format("Pozostało %.0fx %s.%n", newAmount, itemName);
+                if (oldAmount > 0){
+                    list.remove(0);
+                    list.add(0, oldAmount);
+                    orderedItems.put(itemName, list);
+                    System.out.format("Pozostało %.0fx %s.%n", oldAmount, itemName);
+                }
 
             } else {
-                System.out.format("Nie ma możliwości usunąć takiej ilośći %s.%n", itemName);
+                throw new IllegalArgumentException(String.format("There is no possibility to delete %d!", amount));
             }
         } else {
-            System.out.println("Nie ma takiego produktu.");
+            throw new IllegalArgumentException(String.format("There is no item named %s!", itemName));
         }
     }
 
-    public static double summaryBasket(){
+    public double summaryBasket(){
         double sum = 0;
 
         for (List<Double> list : orderedItems.values()){
