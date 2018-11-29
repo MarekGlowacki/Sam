@@ -1,0 +1,7 @@
+1. Napisz program przyjmujący od użytkownika liczbę całkowitą i wyświetl wynik mnożenia tej liczby oraz stałej pi (Math.PI). Wyświetl wynik w postaci liczby całkowitej i liczby zmiennoprzecinkowej.
+
+2. Napisz program pobierający od użytkownika dwie liczby całkowite. Wyświetl wynik ich dzielenia wraz z częścią ułamkową.
+
+3. Napisz program, który skończy się wyjątkiem spowodowanym błędem podczas boxingu/unboxingu.
+
+4. Jak myślisz co otrzymasz przypisując zmienną typu char do zmiennej typu int? Znajdziesz ten numer w tabeli ASCII?

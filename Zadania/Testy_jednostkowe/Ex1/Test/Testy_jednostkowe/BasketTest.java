@@ -216,21 +216,21 @@ public class BasketTest {
         assertEquals(expected.toString(), basket.toString());
     }
 
-    @Test
-    public void shouldAllowToPrintSummaryManyItemsSameNameDiffrentPrice(){
-        basket.addItem("Book", 25, 95.38);
-        basket.addItem("Book", 43, 23.43);
-
-        StringBuilder expected = new StringBuilder();
-
-        expected.append("Book (25,00x 95,38 = 2384,50)");
-        expected.append(System.lineSeparator());
-        expected.append("Book (43,00x 23,43 = 1007,49)");
-        expected.append(System.lineSeparator());
-        expected.append(("Summary order is: 3391,99 zł."));
-
-        assertEquals(expected.toString(), basket.toString());
-    }
+//    @Test
+//    public void shouldAllowToPrintSummaryManyItemsSameNameDiffrentPrice(){
+//        basket.addItem("Book", 25, 95.38);
+//        basket.addItem("Book", 43, 23.43);
+//
+//        StringBuilder expected = new StringBuilder();
+//
+//        expected.append("Book (25,00x 95,38 = 2384,50)");
+//        expected.append(System.lineSeparator());
+//        expected.append("Book (43,00x 23,43 = 1007,49)");
+//        expected.append(System.lineSeparator());
+//        expected.append(("Summary order is: 3391,99 zł."));
+//
+//        assertEquals(expected.toString(), basket.toString());
+//    }
 
     private static Map<String, List<Double>> createOrder(String name, double quantity, double price) {
         Map<String, List<Double>> result = new HashMap<>();

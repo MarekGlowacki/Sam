@@ -7,31 +7,33 @@ public class Basket {
     private Map<String, List<Double>> orderedItems = new HashMap<>();
     protected static final String ITEM_ORDER_FORMAT = "%s (%.2fx %.2f = %.2f)";
 
-    public void main(String[] args) {
-        System.out.println(orderedItems);
-        addItem("Book", 3, 4.58);
-        System.out.println(orderedItems);
-        addItem("Book", 3, 6.29);
-        System.out.println(orderedItems);
-        addItem("Book", 3, 2.23);
-        System.out.println(orderedItems);
-        addItem("Bike", 5, 23);
-        addItem("Bike", 5, 23);
-        addItem("Bike", 5, 23);
-        System.out.println(orderedItems);
-        addItem("Book", 6, 67);
-        System.out.println(orderedItems);
-        addItem("Mobile", 10, 87.98);
-        deleteItem("Book", 2);
-        System.out.println(orderedItems);
-        deleteItem("Bike", 4);
-        System.out.println(orderedItems);
-        deleteItem("Mobile", 2);
-        deleteItem("Book", 7);
-        System.out.println(orderedItems);
-        deleteItem("Bike", -4);
-        System.out.println(orderedItems);
-        System.out.format("Całość zamówienia to: %.2f zł.", summaryBasket());
+    public static void main(String[] args) {
+        Basket basket = new Basket();
+
+        System.out.println(basket.orderedItems);
+        basket.addItem("Book", 3, 4.58);
+        System.out.println(basket.orderedItems);
+        basket.addItem("Book", 3, 6.29);
+        System.out.println(basket.orderedItems);
+        basket.addItem("Book", 3, 2.23);
+        System.out.println(basket.orderedItems);
+        basket.addItem("Bike", 5, 23);
+        basket.addItem("Bike", 5, 23);
+        basket.addItem("Bike", 5, 23);
+        System.out.println(basket.orderedItems);
+        basket.addItem("Book", 6, 67);
+        System.out.println(basket.orderedItems);
+        basket.addItem("Mobile", 10, 87.98);
+        basket.deleteItem("Book", 2);
+        System.out.println(basket.orderedItems);
+        basket.deleteItem("Bike", 4);
+        System.out.println(basket.orderedItems);
+        basket.deleteItem("Mobile", 2);
+        basket.deleteItem("Book", 7);
+        System.out.println(basket.orderedItems);
+        basket.deleteItem("Bike", -4);
+        System.out.println(basket.orderedItems);
+        System.out.format("Całość zamówienia to: %.2f zł.", basket.summaryBasket());
 
     }
 
