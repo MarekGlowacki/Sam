@@ -85,7 +85,9 @@ public class BinarySystem {
                 result += stringToInt * pow(2, i);
             }
 
-            System.out.format("Dziesiętna forma liczby %s to %d%n", binary, result);
+            decimal = result;
+
+            System.out.format("Dziesiętna forma liczby %s to %d%n", decimal, result);
         }
     }
 }
