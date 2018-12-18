@@ -10,46 +10,63 @@ import static org.junit.Assert.*;
 
 public class GradeBookTest {
 
+    private final String math = "matematyka";
+    private final String inf = "informatics";
+
     private GradeBook gradeBook;
-    private Subject subject;
 
     @Before
     public void setUp(){
         gradeBook = new GradeBook();
-        subject = new Subject();
+        gradeBook.addSubjectToGradeBook(math);
     }
 
     @Test
-    public void shouldAllowToCreateNewGradebook(){
-        gradeBook.newGradeBook();
-
-        Map<String, Integer[]> expected = new HashMap<>();
-        assertEquals(expected, gradeBook.getGradeBook());
+    public void shouldAllowToCreateGradeBook(){
+        GradeBook gradeBook = new GradeBook();
+        assertNotNull(gradeBook);
     }
 
-    @Test
-    public void shouldAllowToCreateNewSubject(){
-        subject.addSubject("Matma");
-
-        String expected = "Matma";
-        assertEquals(expected, subject.getSubject());
-    }
-
-    @Test
-    public void shouldAllowToAddSubjectToGradeBook(){
-        subject.addSubject("Matma");
-        gradeBook.addSubjectToGradeBook(subject.getSubject());
-
-        Map<String, Integer[]> expected = new HashMap<>();
-        Integer[] grades = new Integer[10];
-        expected.put("Matma", grades);
-
-        assertEquals(expected, gradeBook.getGradeBook());
+    @Test (expected = IllegalArgumentException.class)
+    public void shouldNotAllowToAddSubjectIsAlreadyExist(){
+        gradeBook.addSubjectToGradeBook(math);
     }
 
     @Test (expected = IllegalArgumentException.class)
     public void shouldNotAllowToAddSubjectWithZeroLetters(){
-        subject.addSubject("");
+        gradeBook.addSubjectToGradeBook("");
     }
+
+    @Test
+    public void shouldAllowToGetSubjectFromGradebook(){
+
+        Subject subject = new Subject(inf);
+
+        assertEquals(inf, subject.getName());
+    }
+
+    @Test (expected = IllegalArgumentException.class)
+    public void shouldNotAllowTocomputeWhenNoGrades(){
+        gradeBook.subjectsGradesAvarage();
+    }
+
+    @Test
+    public void shouldAllowToComputeAvaragesWholeGradebook(){
+        gradeBook.addSubjectToGradeBook(inf);
+
+        gradeBook.addNote(inf,5d);
+        gradeBook.addNote(inf,10d);
+        gradeBook.addNote(inf,15d);
+
+        gradeBook.addNote(math,8d);
+        gradeBook.addNote(math,80d);
+        gradeBook.addNote(math,20d);
+
+        double expected = 23d;
+
+        assertEquals(expected, gradeBook.subjectsGradesAvarage(), 0.001);
+    }
+
+
 
 }

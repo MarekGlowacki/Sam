@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8862732-9581-4b88-8319-823b148eb59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/SubjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadania/System_dwojkowy/BinarySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/System_dwojkowy/BinarySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,15 +50,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,10 +67,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+            <state relative-caret-position="366">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
-                <element signature="e#156#157#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#143#144#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#201#202#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/SubjectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1708">
+              <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,12 +97,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="336">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1277#1278#0" expanded="true" />
-                <element signature="e#1315#1316#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1237#1238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,8 +118,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -151,9 +173,10 @@
         <option value="$PROJECT_DIR$/Zadania/System_dwojkowy/BinarySystem.java" />
         <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/LearningLogbook/GradeBook.java" />
         <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/LearningLogbook/GradeBookTest.java" />
+        <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/SubjectTest.java" />
         <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java" />
-        <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" />
         <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java" />
+        <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" />
       </list>
     </option>
   </component>
@@ -168,43 +191,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Zadania" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Zadania" type="462c0819:PsiDirectoryNode" />
-              <item name="RzutowanieIKonwersja" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Zadania" type="462c0819:PsiDirectoryNode" />
-              <item name="Testy_jednostkowe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Zadania" type="462c0819:PsiDirectoryNode" />
-              <item name="Testy_jednostkowe" type="462c0819:PsiDirectoryNode" />
-              <item name="GradeBook" type="462c0819:PsiDirectoryNode" />
+              <item name="Sam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -214,7 +213,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544190096599" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545156965790" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -231,11 +230,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Testy_jednostkowe.GradeBook" />
       <recent name="Testy_jednostkowe.LearningLogbook" />
       <recent name="System_dwojkowy" />
       <recent name="Testy_jednostkowe.SamouczekP" />
       <recent name="HashCode" />
-      <recent name="Testy_jednostkowe" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Testy_jednostkowe" />
@@ -265,36 +264,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.GradeBookTest">
-    <configuration name="BinarySystemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="System_dwojkowy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="System_dwojkowy" />
-      <option name="MAIN_CLASS_NAME" value="System_dwojkowy.BinarySystemTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinarySystemTest.shouldAllowToMakeBinaryToDecimalTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="System_dwojkowy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="System_dwojkowy" />
-      <option name="MAIN_CLASS_NAME" value="System_dwojkowy.BinarySystemTest" />
-      <option name="METHOD_NAME" value="shouldAllowToMakeBinaryToDecimalTwo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GradeBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
@@ -309,7 +278,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeBookTest.shouldAllowToCreateNewGradebook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
         <pattern>
@@ -319,13 +288,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
       <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.GradeBookTest" />
-      <option name="METHOD_NAME" value="shouldAllowToCreateNewGradebook" />
+      <option name="METHOD_NAME" value="shouldAllowToComputeAvaragesWholeGradebook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeBookTest.shouldAllowToCreateNewSubject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
         <pattern>
@@ -335,26 +304,56 @@
       </extension>
       <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
       <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.GradeBookTest" />
-      <option name="METHOD_NAME" value="shouldAllowToCreateNewSubject" />
+      <option name="METHOD_NAME" value="shouldNotAllowTocomputeWhenNoGrades" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testy_jednostkowe.GradeBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
+      <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.SubjectTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectTest.shouldComputeAvarageSubjectManyGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testy_jednostkowe.GradeBook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
+      <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.SubjectTest" />
+      <option name="METHOD_NAME" value="shouldComputeAvarageSubjectManyGrades" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BinarySystemTest" />
-      <item itemvalue="JUnit.BinarySystemTest.shouldAllowToMakeBinaryToDecimalTwo" />
-      <item itemvalue="JUnit.GradeBookTest.shouldAllowToCreateNewGradebook" />
-      <item itemvalue="JUnit.GradeBookTest.shouldAllowToCreateNewSubject" />
+      <item itemvalue="JUnit.SubjectTest.shouldComputeAvarageSubjectManyGrades" />
+      <item itemvalue="JUnit.GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" />
+      <item itemvalue="JUnit.GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" />
       <item itemvalue="JUnit.GradeBookTest" />
+      <item itemvalue="JUnit.SubjectTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GradeBookTest" />
-        <item itemvalue="JUnit.GradeBookTest.shouldAllowToCreateNewSubject" />
-        <item itemvalue="JUnit.GradeBookTest.shouldAllowToCreateNewGradebook" />
-        <item itemvalue="JUnit.BinarySystemTest" />
-        <item itemvalue="JUnit.BinarySystemTest.shouldAllowToMakeBinaryToDecimalTwo" />
+        <item itemvalue="JUnit.SubjectTest" />
+        <item itemvalue="JUnit.GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" />
+        <item itemvalue="JUnit.GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" />
+        <item itemvalue="JUnit.SubjectTest.shouldComputeAvarageSubjectManyGrades" />
       </list>
     </recent_temporary>
   </component>
@@ -406,49 +405,50 @@
       <workItem from="1543586536767" duration="626000" />
       <workItem from="1543997203386" duration="19971000" />
       <workItem from="1544183951289" duration="6624000" />
+      <workItem from="1545134992113" duration="13131000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySystemTest_shouldAllowToMakeBinaryToDecimalTwo - 2018.12.07 at 12h 59m 35s.xml">
-      <configuration name="BinarySystemTest.shouldAllowToMakeBinaryToDecimalTwo" configurationId="JUnit" />
+    <history-entry file="SubjectTest_shouldComputeAvargeSubjectOneGrade - 2018.12.18 at 18h 31m 15s.xml">
+      <configuration name="SubjectTest.shouldComputeAvargeSubjectOneGrade" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySystemTest_shouldAllowToMakeBinaryToDecimalTwo - 2018.12.07 at 12h 59m 52s.xml">
-      <configuration name="BinarySystemTest.shouldAllowToMakeBinaryToDecimalTwo" configurationId="JUnit" />
+    <history-entry file="SubjectTest_shouldNotAllowToComputeAvarageSubjectWhenNoGrades - 2018.12.18 at 18h 31m 20s.xml">
+      <configuration name="SubjectTest.shouldNotAllowToComputeAvarageSubjectWhenNoGrades" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySystemTest - 2018.12.07 at 13h 10m 22s.xml">
-      <configuration name="BinarySystemTest" configurationId="JUnit" />
+    <history-entry file="SubjectTest_shouldComputeAvarageSubjectManyGrades - 2018.12.18 at 18h 34m 10s.xml">
+      <configuration name="SubjectTest.shouldComputeAvarageSubjectManyGrades" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BinarySystemTest - 2018.12.07 at 13h 12m 49s.xml">
-      <configuration name="BinarySystemTest" configurationId="JUnit" />
+    <history-entry file="GradeBookTest_shouldNotAllowTocomputeWhenNoGrades - 2018.12.18 at 18h 52m 27s.xml">
+      <configuration name="GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GradeBookTest_shouldAllowToCreateNewGradebook - 2018.12.07 at 13h 48m 19s.xml">
-      <configuration name="GradeBookTest.shouldAllowToCreateNewGradebook" configurationId="JUnit" />
+    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 01m 18s.xml">
+      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GradeBookTest_shouldAllowToCreateNewSubject - 2018.12.07 at 14h 01m 30s.xml">
-      <configuration name="GradeBookTest.shouldAllowToCreateNewSubject" configurationId="JUnit" />
+    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 03m 19s.xml">
+      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GradeBookTest - 2018.12.07 at 14h 01m 54s.xml">
+    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 11m 35s.xml">
+      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 12m 43s.xml">
+      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GradeBookTest - 2018.12.18 at 19h 13m 06s.xml">
       <configuration name="GradeBookTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GradeBookTest - 2018.12.07 at 14h 29m 44s.xml">
-      <configuration name="GradeBookTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest - 2018.12.07 at 14h 30m 56s.xml">
-      <configuration name="GradeBookTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest - 2018.12.07 at 14h 40m 12s.xml">
-      <configuration name="GradeBookTest" configurationId="JUnit" />
+    <history-entry file="SubjectTest - 2018.12.18 at 19h 13m 20s.xml">
+      <configuration name="SubjectTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147511000" />
+    <option name="totallyTimeSpent" value="160642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="32" width="1853" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21869783" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21869783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -701,13 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/SamouczekP/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Zadania/RzutowanieIKonwersja/Ex4.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -765,36 +758,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java">
+    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/SamouczekP/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="336">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1315#1316#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="432">
+          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/SubjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1708">
+          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
