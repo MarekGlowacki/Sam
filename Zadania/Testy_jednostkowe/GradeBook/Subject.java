@@ -1,18 +1,21 @@
 package Testy_jednostkowe.GradeBook;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class Subject {
 
-    private String subject;
+    private List<Double> note = new LinkedList<>();
 
-    public String getSubject(){
-        return subject;
+    public List<Double> getNote(){
+        return note;
     }
 
-    public void addSubject(String subjectName){
-        if (subjectName.equals("")){
-            throw new IllegalArgumentException("Nazwa przedmiotu musi mieć przynajmniej jeden znak.");
+    public void addNote(Double note){
+        if (note <= 0){
+            throw new IllegalArgumentException("Przedmiot musi mieć dodatnią ocenę.");
         } else {
-            subject = subjectName;
+            this.note.add(note);
         }
     }
 
