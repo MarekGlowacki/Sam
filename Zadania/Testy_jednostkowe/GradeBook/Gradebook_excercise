@@ -1,0 +1,17 @@
+Ma to być program, który przechowuje oceny jednego ucznia. Poniższe punkty opisują wymagania:
+
+Jako nauczyciel chcę dodawać przedmioty do dzienniczka,
+jako nauczyciel chcę dodać ocenę dla jednego z przedmiotów,
+jako nauczyciel chcę policzyć średnią ocen dla danego przedmiotu,
+jako nauczyciel chcę policzyć średnią ocen z wszystkich przedmiotów.
+Pisząc ten program użyję dwóch klas GradeBook reprezentującej dzienniczek oraz klasy Subject, która będzie opisywała przedmiot.
+
+Te wymagania podzielę na kilka etapów. Staraj się postępować zgodnie z nimi. W każdym z tych etapów możesz mieć kilka cykli, w których dodawał będziesz kolejne testy jednostkowe:
+
+Utworzenie dzienniczka,
+utworzenie przedmiotu,
+dodanie przedmiotu do dzienniczka,
+pobranie przedmiotu z dzienniczka,
+dodanie oceny do przedmiotu,
+obliczenie średniej dla przedmiotu,
+obliczenie średniej dla dzienniczka.
