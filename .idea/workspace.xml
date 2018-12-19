@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/BasketTest.java" line="99" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="d8862732-9581-4b88-8319-823b148eb59a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/SubjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Excercises_set_get/Zwierzeta_ladowe/MalpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,73 +37,23 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/SamouczekP/Item.java">
+        <entry file="file://$PROJECT_DIR$/Zadania/Excercises_set_get/Zwierzeta_ladowe/Malpa.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#228#229#0" expanded="true" />
-                <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-              </folding>
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/SubjectTest.java">
+        <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Excercises_set_get/Zwierzeta_ladowe/MalpaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1708">
-              <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="401">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#1213#1214#0" expanded="true" />
-                <element signature="e#1237#1238#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,21 +124,22 @@
         <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java" />
         <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java" />
         <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java" />
+        <option value="$PROJECT_DIR$/Zadania/Excercises_set_get/Zwierzeta_ladowe/Malpa.java" />
+        <option value="$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Excercises_set_get/Zwierzeta_ladowe/MalpaTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="67" />
     <option name="y" value="51" />
-    <option name="width" value="1419" />
-    <option name="height" value="1018" />
+    <option name="width" value="1409" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,10 +147,33 @@
               <item name="Sam" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sam" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sam" type="462c0819:PsiDirectoryNode" />
+              <item name="Zadania" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sam" type="462c0819:PsiDirectoryNode" />
+              <item name="Zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="Excercises_set_get" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sam" type="462c0819:PsiDirectoryNode" />
+              <item name="Zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="Excercises_set_get" type="462c0819:PsiDirectoryNode" />
+              <item name="Zwierzeta_ladowe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -213,7 +184,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545156965790" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545228342781" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -230,11 +201,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Excercises_set_get.Zwierzeta_ladowe" />
       <recent name="Testy_jednostkowe.GradeBook" />
       <recent name="Testy_jednostkowe.LearningLogbook" />
       <recent name="System_dwojkowy" />
       <recent name="Testy_jednostkowe.SamouczekP" />
-      <recent name="HashCode" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Testy_jednostkowe" />
@@ -263,97 +234,99 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GradeBookTest">
-    <configuration name="GradeBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MalpaTest">
+    <configuration name="MalpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testy_jednostkowe.GradeBook.*" />
+          <option name="PATTERN" value="Excercises_set_get.Zwierzeta_ladowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
-      <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.GradeBookTest" />
+      <option name="PACKAGE_NAME" value="Excercises_set_get.Zwierzeta_ladowe" />
+      <option name="MAIN_CLASS_NAME" value="Excercises_set_get.Zwierzeta_ladowe.MalpaTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MalpaTest.shouldAllowToSetJedzenie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testy_jednostkowe.GradeBook.*" />
+          <option name="PATTERN" value="Excercises_set_get.Zwierzeta_ladowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
-      <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.GradeBookTest" />
-      <option name="METHOD_NAME" value="shouldAllowToComputeAvaragesWholeGradebook" />
+      <option name="PACKAGE_NAME" value="Excercises_set_get.Zwierzeta_ladowe" />
+      <option name="MAIN_CLASS_NAME" value="Excercises_set_get.Zwierzeta_ladowe.MalpaTest" />
+      <option name="METHOD_NAME" value="shouldAllowToSetJedzenie" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MalpaTest.shouldAllowToSetLiczbaZebow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testy_jednostkowe.GradeBook.*" />
+          <option name="PATTERN" value="Excercises_set_get.Zwierzeta_ladowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
-      <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.GradeBookTest" />
-      <option name="METHOD_NAME" value="shouldNotAllowTocomputeWhenNoGrades" />
+      <option name="PACKAGE_NAME" value="Excercises_set_get.Zwierzeta_ladowe" />
+      <option name="MAIN_CLASS_NAME" value="Excercises_set_get.Zwierzeta_ladowe.MalpaTest" />
+      <option name="METHOD_NAME" value="shouldAllowToSetLiczbaZebow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubjectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MalpaTest.shouldAllowToSetOwlosienie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testy_jednostkowe.GradeBook.*" />
+          <option name="PATTERN" value="Excercises_set_get.Zwierzeta_ladowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
-      <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.SubjectTest" />
+      <option name="PACKAGE_NAME" value="Excercises_set_get.Zwierzeta_ladowe" />
+      <option name="MAIN_CLASS_NAME" value="Excercises_set_get.Zwierzeta_ladowe.MalpaTest" />
+      <option name="METHOD_NAME" value="shouldAllowToSetOwlosienie" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubjectTest.shouldComputeAvarageSubjectManyGrades" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MalpaTest.shouldAllowToSetUmiejetnosci" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testy_jednostkowe.GradeBook.*" />
+          <option name="PATTERN" value="Excercises_set_get.Zwierzeta_ladowe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Testy_jednostkowe.GradeBook" />
-      <option name="MAIN_CLASS_NAME" value="Testy_jednostkowe.GradeBook.SubjectTest" />
-      <option name="METHOD_NAME" value="shouldComputeAvarageSubjectManyGrades" />
+      <option name="PACKAGE_NAME" value="Excercises_set_get.Zwierzeta_ladowe" />
+      <option name="MAIN_CLASS_NAME" value="Excercises_set_get.Zwierzeta_ladowe.MalpaTest" />
+      <option name="METHOD_NAME" value="shouldAllowToSetUmiejetnosci" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SubjectTest.shouldComputeAvarageSubjectManyGrades" />
-      <item itemvalue="JUnit.GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" />
-      <item itemvalue="JUnit.GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" />
-      <item itemvalue="JUnit.GradeBookTest" />
-      <item itemvalue="JUnit.SubjectTest" />
+      <item itemvalue="JUnit.MalpaTest.shouldAllowToSetOwlosienie" />
+      <item itemvalue="JUnit.MalpaTest.shouldAllowToSetLiczbaZebow" />
+      <item itemvalue="JUnit.MalpaTest.shouldAllowToSetUmiejetnosci" />
+      <item itemvalue="JUnit.MalpaTest.shouldAllowToSetJedzenie" />
+      <item itemvalue="JUnit.MalpaTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GradeBookTest" />
-        <item itemvalue="JUnit.SubjectTest" />
-        <item itemvalue="JUnit.GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" />
-        <item itemvalue="JUnit.GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" />
-        <item itemvalue="JUnit.SubjectTest.shouldComputeAvarageSubjectManyGrades" />
+        <item itemvalue="JUnit.MalpaTest" />
+        <item itemvalue="JUnit.MalpaTest.shouldAllowToSetJedzenie" />
+        <item itemvalue="JUnit.MalpaTest.shouldAllowToSetUmiejetnosci" />
+        <item itemvalue="JUnit.MalpaTest.shouldAllowToSetLiczbaZebow" />
+        <item itemvalue="JUnit.MalpaTest.shouldAllowToSetOwlosienie" />
       </list>
     </recent_temporary>
   </component>
@@ -405,50 +378,53 @@
       <workItem from="1543586536767" duration="626000" />
       <workItem from="1543997203386" duration="19971000" />
       <workItem from="1544183951289" duration="6624000" />
-      <workItem from="1545134992113" duration="13131000" />
+      <workItem from="1545134992113" duration="13886000" />
+      <workItem from="1545214014249" duration="1756000" />
+      <workItem from="1545221828503" duration="3710000" />
+      <workItem from="1545226469765" duration="1526000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SubjectTest_shouldComputeAvargeSubjectOneGrade - 2018.12.18 at 18h 31m 15s.xml">
-      <configuration name="SubjectTest.shouldComputeAvargeSubjectOneGrade" configurationId="JUnit" />
+    <history-entry file="SubjectTest - 2018.12.18 at 19h 16m 02s.xml">
+      <configuration name="SubjectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubjectTest_shouldNotAllowToComputeAvarageSubjectWhenNoGrades - 2018.12.18 at 18h 31m 20s.xml">
-      <configuration name="SubjectTest.shouldNotAllowToComputeAvarageSubjectWhenNoGrades" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubjectTest_shouldComputeAvarageSubjectManyGrades - 2018.12.18 at 18h 34m 10s.xml">
-      <configuration name="SubjectTest.shouldComputeAvarageSubjectManyGrades" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest_shouldNotAllowTocomputeWhenNoGrades - 2018.12.18 at 18h 52m 27s.xml">
-      <configuration name="GradeBookTest.shouldNotAllowTocomputeWhenNoGrades" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 01m 18s.xml">
-      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 03m 19s.xml">
-      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 11m 35s.xml">
-      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest_shouldAllowToComputeAvaragesWholeGradebook - 2018.12.18 at 19h 12m 43s.xml">
-      <configuration name="GradeBookTest.shouldAllowToComputeAvaragesWholeGradebook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeBookTest - 2018.12.18 at 19h 13m 06s.xml">
+    <history-entry file="GradeBookTest - 2018.12.18 at 19h 16m 06s.xml">
       <configuration name="GradeBookTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SubjectTest - 2018.12.18 at 19h 13m 20s.xml">
-      <configuration name="SubjectTest" configurationId="JUnit" />
+    <history-entry file="MalpaTest_shouldAllowToSetOwlosienie - 2018.12.19 at 13h 36m 48s.xml">
+      <configuration name="MalpaTest.shouldAllowToSetOwlosienie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MalpaTest_shouldAllowToSetOwlosienie - 2018.12.19 at 13h 37m 13s.xml">
+      <configuration name="MalpaTest.shouldAllowToSetOwlosienie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MalpaTest_shouldAllowToSetOwlosienie - 2018.12.19 at 13h 37m 26s.xml">
+      <configuration name="MalpaTest.shouldAllowToSetOwlosienie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MalpaTest_shouldAllowToSetLiczbaZebow - 2018.12.19 at 13h 41m 43s.xml">
+      <configuration name="MalpaTest.shouldAllowToSetLiczbaZebow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MalpaTest_shouldAllowToSetLiczbaZebow - 2018.12.19 at 13h 42m 47s.xml">
+      <configuration name="MalpaTest.shouldAllowToSetLiczbaZebow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MalpaTest_shouldAllowToSetUmiejetnosci - 2018.12.19 at 14h 17m 18s.xml">
+      <configuration name="MalpaTest.shouldAllowToSetUmiejetnosci" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MalpaTest_shouldAllowToSetJedzenie - 2018.12.19 at 14h 19m 36s.xml">
+      <configuration name="MalpaTest.shouldAllowToSetJedzenie" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MalpaTest - 2018.12.19 at 14h 20m 00s.xml">
+      <configuration name="MalpaTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160642000" />
+    <option name="totallyTimeSpent" value="168389000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="32" width="1853" height="1048" extended-state="6" />
+    <frame x="67" y="51" width="1409" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21869783" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3067258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -457,14 +433,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3381535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33716917" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39907727" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32703003" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3242009" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32703003" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -537,13 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania/Excercises_set_get/Zwierzeta_ladowe/Malpa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -765,54 +734,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#1213#1214#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/GradeBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
+        <state relative-caret-position="1232">
           <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/GradeBook/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
+        <state relative-caret-position="952">
           <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/SubjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1708">
-          <caret line="61" column="29" lean-forward="true" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="1540">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Testy_jednostkowe/GradeBook/GradeBookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania/Excercises_set_get/Zwierzeta_ladowe/Niedzwiedz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania/Excercises_set_get/Zwierzeta_ladowe/Malpa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Zadania/Testy_jednostkowe/Ex1/Test/Excercises_set_get/Zwierzeta_ladowe/MalpaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
