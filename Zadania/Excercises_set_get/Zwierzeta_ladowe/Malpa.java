@@ -5,6 +5,10 @@ import Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie.Rybki;
 
 public class Malpa {
 
+    public static void main(String[] args) {
+        System.out.println("działa");
+    }
+
     private boolean owlosienie;
     private int liczbaZebow;
     private String umiejetnosci;
@@ -14,6 +18,10 @@ public class Malpa {
     private Rekin czyDuzy;
     private Rekin kolor;
     private Rybki ileWStadzie;
+
+    public Malpa(){
+
+    }
 
     public Malpa(boolean owlosienie, Rybki ileWStadzie, Rekin kolor, Rekin czyDuzy, int liczbaZebow, String umiejetnosci, String jedzenie, Rekin name, Niedzwiedz duzeUszy)  {
         this.owlosienie = owlosienie;

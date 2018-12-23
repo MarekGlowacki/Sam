@@ -1,5 +1,6 @@
-package System_dwojkowy;
+package BinarySystemTests;
 
+import System_dwojkowy.BinarySystem;
 import org.junit.Before;
 import org.junit.Test;
 

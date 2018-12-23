@@ -1,8 +1,8 @@
-package Testy_jednostkowe;
-
+package SamouczekPTesty;
 
 import static org.junit.Assert.assertEquals;
 
+import Testy_jednostkowe.Basket;
 import org.junit.Before;
 import org.junit.Test;
 

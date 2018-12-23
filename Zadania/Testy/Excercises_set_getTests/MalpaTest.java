@@ -1,5 +1,6 @@
-package Excercises_set_get.Zwierzeta_ladowe;
+package Excercises_set_getTests;
 
+import Excercises_set_get.Zwierzeta_ladowe.Malpa;
 import org.junit.Test;
 
 import java.lang.reflect.Field;

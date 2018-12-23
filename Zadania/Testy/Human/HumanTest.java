@@ -1,5 +1,6 @@
-package HashCode;
+package Human;
 
+import HashCode.Human;
 import org.junit.Before;
 import org.junit.Test;
 

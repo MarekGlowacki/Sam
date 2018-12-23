@@ -1,5 +1,6 @@
-package Testy_jednostkowe.Ex1;
+package RangeTests;
 
+import Testy_jednostkowe.Ex1.Range;
 import org.junit.*;
 
 import static junit.framework.TestCase.fail;

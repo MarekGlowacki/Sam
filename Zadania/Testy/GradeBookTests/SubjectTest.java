@@ -1,5 +1,6 @@
-package Testy_jednostkowe.GradeBook;
+package GradeBookTests;
 
+import Testy_jednostkowe.GradeBook.Subject;
 import org.junit.Before;
 import org.junit.Test;
 
