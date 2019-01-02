@@ -1,4 +1,4 @@
-package Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie;
+package Excercises_set_get.Zwierzeta_morskie;
 
 import Excercises_set_get.Zwierzeta_ladowe.Malpa;
 
@@ -13,6 +13,9 @@ public class Wieloryb {
     private Malpa umiejetnosci;
     private Malpa jedzenie;
     private Rybki ileWStadzie;
+
+    public Wieloryb() {
+    }
 
     public Wieloryb(String name, Rybki ileWStadzie, Malpa jedzenie, Malpa umiejetnosci, Malpa ileZebow, boolean czyDuzy, String kolor, boolean czyLuski) {
         this.name = name;

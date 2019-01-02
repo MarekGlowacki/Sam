@@ -1,7 +1,6 @@
 package Excercises_set_get.Zwierzeta_ladowe;
 
-import Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie.Rekin;
-import Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie.Rybki;
+import Excercises_set_get.Zwierzeta_morskie.*;
 
 public class Malpa {
 
@@ -20,7 +19,6 @@ public class Malpa {
     private Rybki ileWStadzie;
 
     public Malpa(){
-
     }
 
     public Malpa(boolean owlosienie, Rybki ileWStadzie, Rekin kolor, Rekin czyDuzy, int liczbaZebow, String umiejetnosci, String jedzenie, Rekin name, Niedzwiedz duzeUszy)  {

@@ -1,4 +1,4 @@
-package Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie;
+package Excercises_set_get.Zwierzeta_morskie;
 
 import Excercises_set_get.Zwierzeta_ladowe.Malpa;
 
@@ -13,6 +13,9 @@ public class Rekin {
     private Malpa umiejetnosci;
     private Malpa jedzenie;
     private Rybki ileWStadzie;
+
+    public Rekin() {
+    }
 
     public Rekin(boolean czyLuski, Rybki ileWStadzie, Malpa jedzenie, Malpa umiejetnosci, boolean czyDuzy, String name, String kolor, Malpa liczbaZebow) {
         this.czyLuski = czyLuski;

@@ -1,7 +1,6 @@
 package Excercises_set_get.Zwierzeta_ladowe;
 
-import Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie.Rekin;
-import Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie.Rybki;
+import Excercises_set_get.Zwierzeta_morskie.*;
 
 public class Niedzwiedz {
 
@@ -14,6 +13,9 @@ public class Niedzwiedz {
     private Rekin czyDuzy;
     private Rekin kolor;
     private Rybki ileWStadzie;
+
+    public Niedzwiedz() {
+    }
 
     public Niedzwiedz(String name, Rybki ileWStadzie, Rekin kolor, Rekin czyDuzy, Malpa umiejetnosci, boolean owlosienie, boolean duzeUszy, int liczbaZebow, Malpa jedzenie) {
         this.name = name;

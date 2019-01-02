@@ -1,6 +1,6 @@
 package Excercises_set_get.Zwierzeta_ladowe;
 
-import Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie.*;
+import Excercises_set_get.Zwierzeta_morskie.*;
 
 public class Pies {
 
@@ -13,15 +13,16 @@ public class Pies {
     private Rekin czyDuzy;
     private Rybki ileWStadzie;
 
+    public Pies() {
+    }
 
-    public Pies(boolean owlosienie, Rybki ileWStadzie, Rekin czyDuzy, Niedzwiedz liczbazebow, Malpa jedzenie, Malpa umiejetnosci, int liczbaZebow, boolean duzeUczy, String name) {
+    public Pies(boolean owlosienie, Rybki ileWStadzie, Rekin czyDuzy, Malpa jedzenie, Malpa umiejetnosci, int liczbaZebow, boolean duzeUczy, String name) {
         this.owlosienie = owlosienie;
         this.liczbaZebow = liczbaZebow;
         this.duzeUszy = duzeUczy;
         this.name = name;
         this.umiejetnosci = umiejetnosci;
         this.jedzenie = jedzenie;
-        this.liczbaZebow = liczbaZebow;
         this.czyDuzy = czyDuzy;
         this.ileWStadzie = ileWStadzie;
     }
@@ -42,7 +43,7 @@ public class Pies {
         return liczbaZebow;
     }
 
-    public void setDuzeUczy(boolean duzeUczy) {
+    public void setDuzeUszy(boolean duzeUczy) {
         this.duzeUszy = duzeUczy;
     }
 

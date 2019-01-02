@@ -1,4 +1,4 @@
-package Excercises_set_get.Zwierzeta_ladowe.Zwierzeta_morskie;
+package Excercises_set_get.Zwierzeta_morskie;
 
 import Excercises_set_get.Zwierzeta_ladowe.*;
 
@@ -12,6 +12,9 @@ public class Rybki {
     private Malpa umiejetnosci;
     private Malpa jedzenie;
     private Niedzwiedz name;
+
+    public Rybki(){
+    }
 
 
     public Rybki(boolean maLuski, Niedzwiedz name, Malpa jedzenie, Malpa umiejetnosci, Malpa liczbaZebow, boolean czyDuza, int ileWStadzie, String kolor) {
