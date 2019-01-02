@@ -113,9 +113,6 @@ public class NiedzwiedzTest {
 
     @Test
     public void shouldAllowToConstructNiedzwiedz() throws IllegalAccessException, NoSuchFieldException {
-        malpa = new Malpa();
-        rekin = new Rekin();
-        rybki = new Rybki();
 
         niedzwiedz = new Niedzwiedz("Bureg", rybki, rekin, rekin, malpa, true, true, 500, malpa);
 

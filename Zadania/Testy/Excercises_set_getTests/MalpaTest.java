@@ -101,10 +101,7 @@ public class MalpaTest {
     }
 
     @Test
-    public void shouldAllowToConstructObject() throws IllegalAccessException, NoSuchFieldException{
-        rekin = new Rekin();
-        rybki = new Rybki();
-        niedzwiedz = new Niedzwiedz();
+    public void shouldAllowToConstructMalpa() throws IllegalAccessException, NoSuchFieldException{
 
         malpa = new Malpa(true, rybki, rekin, rekin, 5, "jedzenie", "banany", rekin, niedzwiedz);
 

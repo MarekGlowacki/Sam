@@ -108,9 +108,6 @@ public class PiesTest {
 
     @Test
     public void shouldAllowToCreatePies() throws IllegalAccessException, NoSuchFieldException {
-        malpa = new Malpa();
-        rekin = new Rekin();
-        rybki = new Rybki();
 
         pies = new Pies(true, rybki, rekin, malpa, malpa, 50, true, "Bureg");
 

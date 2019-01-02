@@ -1,6 +1,7 @@
 package Excercises_set_get.Zwierzeta_morskie;
 
 import Excercises_set_get.Zwierzeta_ladowe.Malpa;
+import Excercises_set_get.Zwierzeta_ladowe.Niedzwiedz;
 
 
 public class Rekin {
