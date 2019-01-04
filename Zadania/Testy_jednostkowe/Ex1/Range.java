@@ -1,7 +1,5 @@
 package Testy_jednostkowe.Ex1;
 
-import org.junit.Assert;
-import org.junit.Test;
 
 public class Range {
 

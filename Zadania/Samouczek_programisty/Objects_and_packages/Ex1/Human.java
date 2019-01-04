@@ -1,4 +1,5 @@
-package Objects_and_packages.Ex1;
+package Samouczek_programisty.Objects_and_packages.Ex1;
+
 
 public class Human {
 
