@@ -57,7 +57,7 @@ public class MyNumber {
         return new MyNumber(number + x.number);
     }
 
-    public MyNumber substract(MyNumber x){
+    public MyNumber substract(MyNumber x) {
         return new MyNumber(number / x.number);
     }
 }
