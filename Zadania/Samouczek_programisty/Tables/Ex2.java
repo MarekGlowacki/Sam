@@ -1,10 +1,12 @@
 package Samouczek_programisty.Tables;
 
+import java.util.Arrays;
+
 public class Ex2 {
 
     public static void main(String[] args) {
         int[] tab = {4, 8, 9};
-        System.out.println(tab);
+        System.out.println(Arrays.toString(tab));
         rev(tab);
     }
 
