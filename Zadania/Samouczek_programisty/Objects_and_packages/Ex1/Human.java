@@ -1,23 +1,25 @@
 package Samouczek_programisty.Objects_and_packages.Ex1;
 
 
+import com.sun.xml.internal.fastinfoset.algorithm.BooleanEncodingAlgorithm;
+
 public class Human {
 
-    private int age;
-    private double weight;
-    private double height;
+    private Integer age;
+    private Double weight;
+    private Double height;
     private String name;
-    private boolean male;
+    private Boolean male;
 
-    public int getAge(){
+    public Integer getAge(){
         return age;
     }
 
-    public double getWeight(){
+    public Double getWeight(){
         return weight;
     }
 
-    public double getHeight(){
+    public Double getHeight(){
         return height;
     }
 
@@ -25,7 +27,7 @@ public class Human {
         return name;
     }
 
-    public boolean isMale(){
+    public Boolean isMale(){
         return male;
     }
 }
