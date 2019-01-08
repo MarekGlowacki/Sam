@@ -10,12 +10,14 @@ public class ArrayFactory {
     public static void main(String[] args) {
 
         ArrayFactory arr = new ArrayFactory(1897);
+        int [] arrayTest = {3, 6, 90, 34, 4, 35, 2};
 //        arr.writeInt();
 //        System.out.println(arr.revString("Marek"));
 //        System.out.println(arr.palindrom("cos"));
 //        System.out.println(arr.palindrom("kajak"));
 //        System.out.println(arr.palindrom("kajaK"));
-        System.out.println(Arrays.deepToString(arr.matrix(4)));
+//        System.out.println(Arrays.deepToString(arr.matrix(4)));
+        arr.bubbleSort(arrayTest);
     }
 
     public ArrayFactory(int x){
@@ -70,5 +72,34 @@ public class ArrayFactory {
             }
         }
         return unitArr;
+    }
+
+    public void showArray(int[] array){
+        System.out.println(Arrays.toString(array));
+    }
+
+    public void bubbleSort(int[] array){
+        int count = 0;
+
+        int[] sortedArray = array;
+        while (count < array.length -2) {
+
+            count = 0;
+
+            for (int i = 0; i < array.length-1; i++) {
+                int arrgArrray;
+
+                    if (sortedArray[i] > sortedArray[i + 1]) {
+                        arrgArrray = array[i + 1];
+                        sortedArray[i + 1] = array[i];
+                        sortedArray[i] = arrgArrray;
+                        count -= 1;
+                    } else {
+                        count += 1;
+                    }
+            }
+
+        }
+        System.out.println(Arrays.toString(sortedArray));
     }
 }
