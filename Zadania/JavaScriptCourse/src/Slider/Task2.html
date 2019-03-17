@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript">
+        
+        function typee() {
+            var number1 = document.getElementById("field1").value;
+            var number2 = document.getElementById("field2").value;
+            var caption = "";
+
+            if (isNaN(number1) && isNaN(number2)){
+                caption = "Values in both fields is not a number!"
+            } else if (isNaN(number1)) {
+                caption = "Value in left field is not a number!"
+            } else if (isNaN(number2)) {
+                caption = "Value in right field is not a number!"
+            } else {
+                if (number1 < number2) {
+                    for (i=number1; i<=number2; i++){
+                        caption = caption + i + " ";
+                    }
+                } else if (number1 > number2) {
+                    for (i = number1; i >= number2; i--) {
+                        caption = caption + i + " ";
+                    }
+                } else if (number1 == number2) {
+                    caption = "Fields are same"
+                }
+            }
+
+            document.getElementById("result").innerHTML = caption;
+        }
+
+    </script>
+
+</head>
+<body>
+
+    <input type="text" id="field1" />
+    <input type="text" id="field2" />
+    <input type="submit" value="Check" onclick="typee()"/>
+
+    <div id="result"></div>
+</body>
+</html>

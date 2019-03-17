@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script type="text/javascript">
+        
+        function check() {
+            // var number = document.getElementById("pole").value;
+            //
+            // if (number > 0) {
+            //     document.getElementById("result").innerHTML="positive";
+            // } else if (number < 0) {
+            //     document.getElementById("result").innerHTML="negative";
+            // } else if (number == 0) {
+            //     document.getElementById("result").innerHTML="neutral";
+            // } else {
+            //     document.getElementById("result").innerHTML="It's not a number";
+            // }
+
+            var number1 = document.getElementById("field1").value;
+            var number2 = document.getElementById("field2").value;
+
+            for (i=number1; i<=number2; i++){
+                document.getElementById("result").innerHTML = i + " ";
+            }
+
+        }
+    </script>
+
+</head>
+<body>
+
+    <input type="text" id="field1" />
+    <input type="text" id="field2" />
+    <input type="submit" value="Check" onclick="check()"/>
+
+    <div id="result"></div>
+</body>
+</html>
